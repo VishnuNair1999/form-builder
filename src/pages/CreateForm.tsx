@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { Box, Button, TextField, Select, MenuItem, Typography, Checkbox, FormControlLabel } from '@mui/material';
-import { FormField, FormSchema, ValidationRule } from '../types/form';
+import { FormField, FormSchema } from '../types/form';
 import { useAppDispatch } from '../redux/hooks';
 import { saveForm } from '../redux/formsSlice';
 import { useNavigate } from 'react-router-dom';
